@@ -1,0 +1,21 @@
+{
+    "langName": "English",
+    "logo": "Don't Dis My Ability",
+  
+    "navLinkHome": "Home",
+    "navLinkUpload": "Upload",
+    "navChangeLang": "Change Language",
+    "navLinkLogout": "Logout",
+
+    "homeTitle": "Who we are",
+    "hoemAbout": "To make solo-travel convenient for specially-abled people we bring to you Don't Dis My Ability a web-app working on ensuring a smooth and easy-going solo travel experience for the differently abled people. The website uses Google Vision API for OCR implementation to retrieve the necessary information from the menu at a restaurant and clusters the data into vegetarian and non-vegetarian categories alongside displaying the calories in the dish.",
+    "homeUpdate": "Upload Menu",
+    "homwWhatElse": "What else do we have",
+    "homeDesc": "Don't Dis My Ability is a web app where you can:",
+    "homePt1": "Allow micropayments to be made using Coil",
+    "homePt2": "Classify the food as vegetarian or non-vegetarian",
+    "homePt3": "Upload the menu and extract the information from it",
+    "homePt4": "Convert the extracted text from the menu into speech",
+    "homePt5": "Get nutrition information about the food, such as its ingredients and its calories"
+  }
+  

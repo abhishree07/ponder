@@ -1,0 +1,20 @@
+{
+  "langName": "deutsch",
+  "logo": "Dis meine Fähigkeit nicht",
+
+  "navLinkHome": "Zuhause",
+  "navLinkUpload": "Hochladen",
+  "navChangeLang": "Sprache ändern",
+  "navLinkLogout": "Abmelden",
+
+  "homeTitle": "Wer wir sind",
+  "hoemAbout": "Um Solo-Reisen für Menschen mit Behinderungen bequemer zu machen, bringen wir Ihnen Don't Dis My Ability, eine Web-App, die daran arbeitet, Menschen mit Behinderungen ein reibungsloses und unbeschwertes Solo-Reiseerlebnis zu gewährleisten. Die Website verwendet die Google Vision API für die OCR-Implementierung, um die erforderlichen Informationen aus der Speisekarte eines Restaurants abzurufen, und gruppiert die Daten in vegetarische und nicht-vegetarische Kategorien, zusammen mit der Anzeige der Kalorien im Gericht.",
+  "homeUpdate": "Menü aktualisieren",
+  "homwWhatElse": "Was haben wir noch",
+  "homeDesc": "Don't Dis My Ability ist eine Web-App, mit der Sie:",
+  "homePt1": "Mikrozahlungen mit Coil zulassen",
+  "homePt2": "Klassifizieren Sie das Essen als vegetarisch oder nicht vegetarisch",
+  "homePt3": "Laden Sie das Menü hoch und extrahieren Sie die Informationen daraus",
+  "homePt4": "Konvertiere den extrahierten Text aus dem Menü in Sprache",
+  "homePt5": "Erhalte Nährwertinformationen über das Lebensmittel, wie z. B. seine Zutaten und Kalorien"
+}
