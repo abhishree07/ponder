@@ -2,7 +2,7 @@
 
 ## Track: Travel
 
-## 💡Inspiration
+## 💡 Inspiration
 
 ## 💻 What it does
 
