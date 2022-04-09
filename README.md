@@ -17,11 +17,17 @@
 
 ## ✈ Travel Track
 
-Our team embarked on a journey to create an adaptive user interface for disabled people that made it easier for them to use technology whenever they travel abroad. We spearheaded the project by creating a platform that allows users to
+Our team embarked on a journey to create an adaptive user interface for disabled people that made it easier for them to use technology whenever they travel abroad. We spearheaded the project by creating a platform that allows users to:
+
+- Upload the menu and extract the information from it
+- Convert the extracted text from the menu into speech
+- Allow micropayments to be made using Coil
+- Classify the food as vegetarian or non-vegetarian
+- Get nutrition information about the food, such as its ingredients and its calories
 
 ## 📚 Research
 
-Research is paramount to gaining a full understanding of the user and their needs. Beyond our own experiences, we needed to dig deeper into the web, outside of our network, and find both organizations that could shed light on how better to help our targeted users as well as to conduct research into other similar applications or products. This was crucial to avoid re-inventing the wheel and wasting valuable time and resources. Here are a few of the resources that were helpful to us -
+Research is paramount to gaining a full understanding of the user and their needs. Beyond our own experiences, we needed to dig deeper into the web, outside of our network, and find both organizations that could shed light on how better to help our targeted users as well as to conduct research into other similar applications or products. This was crucial to avoid re-inventing the wheel and wasting valuable time and resources. Here are a few of the resources that were helpful to us:
 
 - https://www.narayanseva.org/blog/10-problems-faced-by-people-with-disabilities
 - https://www.sagetraveling.com/25-things-that-can-go-wrong-traveling-with-a-disability
