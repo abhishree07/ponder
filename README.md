@@ -1,21 +1,21 @@
 # Don't Dis My Ability
 
-Don't Dis My Ability- A new perspective to solo traveling
+Don't Dis My Ability- A new perspective on solo traveling
 
 ## Track: Travel
 
 ## 💡 Inspiration
 
-Post pandemic has seen a tremendous surge in people's inclination towards solo traveling and "workation" and the era of solo-traveling has also experienced a rise in specially-abled solo travellers stepping out and exploring the world. On researching about the solo travel experiences and issues faced by specially-abled travelers, we identified two major problems faced by the people which are:
+Post pandemic has seen a tremendous surge in people's inclination towards solo traveling and "workstation" and the era of solo traveling has also experienced a rise in specially-abled solo travelers stepping out and exploring the world. In researching the solo travel experiences and issues faced by specially-abled travelers, we identified two major problems faced by the people which are:
 
-i) Getting Money and Using The ATM- Even after carrying sufficient local currency, many specially abled travellers are bound to use the ATM atleast once to retrieve cash and in situations like these, many travellers have to either reach out to a fellow traveller or a staff member of accomodation and trusting them with sensitive banking information.
+i) Getting Money and Using The ATM- Even after carrying sufficient local currency, many specially-abled travelers are bound to use the ATM at least once to retrieve cash and in situations like these, many travelers have to either reach out to a fellow traveler or a staff member of accommodation and trusting them with sensitive banking information.
 
-ii) Difficulty in ordering food- Travelling to countries with diverse culture is often reflected in the diverse variety of dishes available and this can often cause a problem of not knowing what to eat especially for a specially abled person having vision and hearing impairments.
+ii) Difficulty in ordering food- Travelling to countries with diverse cultures is often reflected in the diverse variety of dishes available and this can often cause a problem of not knowing what to eat especially for a specially-abled person having vision and hearing impairments.
 
 ## 💻 What it does
 
-To make solo-travel convenient for specially-abled people we bring to you "Don't Dis My Ability" a web-app working on ensuring a smooth and easy-going solo travel experience for the differently abled people. The website uses Google Vision API for OCR implementation to retrieve the necessary information from the menu at a restaurant and clusters the data into vegetarian and non-vegetarian categories alongside displaying the calories in the dish. This also ensures the screen reading technology not being fooled and only focuses on necessary information making the process of ordering food at a restaurant simplified for the specially-abled traveller.
-The web-app also allows micropayment to bypass the hassle of making visits to the ATMs and sharing sensitive banking information to strangers for help by allowing direct payment from native currency via payment gateways.
+To make solo travel convenient for specially-abled people we bring to you "Don't Dis My Ability" a web app working on ensuring a smooth and easy-going solo travel experience for the differently-abled people. The website uses Google Vision API for OCR implementation to retrieve the necessary information from the menu at a restaurant and clusters the data into vegetarian and non-vegetarian categories alongside displaying the calories in the dish. This also ensures the screen reading technology is not being fooled and only focuses on necessary information making the process of ordering food at a restaurant simplified for the specially-abled traveler.
+The web app also allows micropayment to bypass the hassle of making visits to the ATMs and sharing sensitive banking information with strangers for help by allowing direct payment from native currency via payment gateways.
 
 ## ⚙️ How we built it
 
@@ -27,13 +27,14 @@ The web-app also allows micropayment to bypass the hassle of making visits to th
 
 ## ✈ Travel Track
 
-Our team embarked on a journey to create an adaptive user interface for specially abled people that made it easier for them to use technology whenever they travel abroad. We spearheaded the project by creating a platform that allows users to:
+Our team embarked on a journey to create an adaptive user interface for specially-abled people that made it easier for them to use technology whenever they travel abroad. We spearheaded the project by creating a platform that allows users to:
 
 - Upload the menu and extract the information from it
 - Convert the extracted text from the menu into speech
 - Allow micropayments to be made using Coil
 - Classify the food as vegetarian or non-vegetarian
 - Get nutrition information about the food, such as its ingredients and its calories
+- Change the language of the website to the user's preferred language
 
 ## 📚 Research
 
@@ -73,4 +74,4 @@ We are using **DeSo** to make a secure user authentication. DeSo is the first La
 ## 🚀 What's next for Don't Dis My Ability
 
 - Building a mobile app for the project.
-- Simplifying the process of accomodation by providing proper description of rooms,advance eliminating the graphic capture and over crowding of webpages,following international standards on color-contrasts etc.
+- Simplifying the process of accommodation by providing a proper description of rooms, advancing eliminating the graphic capture and overcrowding of webpages, following international standards on color contrasts, etc.

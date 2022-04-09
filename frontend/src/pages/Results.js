@@ -77,7 +77,7 @@ const Results = (props) => {
             rows="10"
             value={code}
             onChange={(e) => setValue(e.target.value)}
-            className="w-full border-none active:border-none resize-none"
+            className="w-full border-none active:border-none resize-none h-full"
           ></textarea>
 
           {/* {code} */}
