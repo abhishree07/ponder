@@ -27,8 +27,8 @@ function LogIn() {
 
                     <div className="md:flex md:flex-col md:justify-center lg:pr-16">
 
-                        <h2 className="mb-4 text-6xl self-center font-bold tracking-wider text-white">
-                            APP NAME
+                        <h2 className="mb-4 text-[2.6rem] self-center font-bold tracking-wider text-white">
+                            Don't Dis My Ability
                         </h2>
 
                         <div className="relative mt-4 outline-transparent outline">

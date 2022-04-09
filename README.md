@@ -1,20 +1,25 @@
-# APP NAME
-Don’t Dis My Ability- A new perspective to solo traveling 
+# Don't Dis My Ability
+
+Don't Dis My Ability- A new perspective to solo traveling
 
 ## Track: Travel
 
 ## 💡 Inspiration
-Post pandemic has seen a tremendous surge in people's inclination towards solo traveling and "workation" and the era of solo-traveling has also experienced a rise in specially-abled solo travellers stepping out and exploring the world. On researching about the solo travel experiences and issues faced by specially-abled travelers, we identified two major problems faced by the people which are- 
- i) Getting Money and Using The ATM- Even after carrying sufficient local currency, many specially abled travellers are bound to use the ATM atleast once to retrieve cash and in situations like these, many travellers have to either reach out to a fellow traveller or a staff member of accomodation and trusting them with sensitive banking information.
- ii) Difficulty in ordering food- Travelling to countries with diverse culture is often reflected in the diverse variety of dishes available and this can often cause a problem of not knowing what to eat especially for a specially abled person having vision and hearing impairments. 
+
+Post pandemic has seen a tremendous surge in people's inclination towards solo traveling and "workation" and the era of solo-traveling has also experienced a rise in specially-abled solo travellers stepping out and exploring the world. On researching about the solo travel experiences and issues faced by specially-abled travelers, we identified two major problems faced by the people which are:
+
+i) Getting Money and Using The ATM- Even after carrying sufficient local currency, many specially abled travellers are bound to use the ATM atleast once to retrieve cash and in situations like these, many travellers have to either reach out to a fellow traveller or a staff member of accomodation and trusting them with sensitive banking information.
+
+ii) Difficulty in ordering food- Travelling to countries with diverse culture is often reflected in the diverse variety of dishes available and this can often cause a problem of not knowing what to eat especially for a specially abled person having vision and hearing impairments.
 
 ## 💻 What it does
-To make solo-travel convenient for specially-abled people we bring to you "Don't Dis My Ability" a web-app working on ensuring a smooth and easy-going solo travel experience for the differently abled people. The website uses Google Vision API for OCR implementation to retrieve the necessary information from the menu at a restaurant and clusters the data into vegetarian and non-vegetarian categories alongside displaying the calories in the dish. This also ensures the screen reading technology not being fooled and only focuses on necessary information making the process of ordering food at a restaurant simplified for the specially-abled traveller. 
+
+To make solo-travel convenient for specially-abled people we bring to you "Don't Dis My Ability" a web-app working on ensuring a smooth and easy-going solo travel experience for the differently abled people. The website uses Google Vision API for OCR implementation to retrieve the necessary information from the menu at a restaurant and clusters the data into vegetarian and non-vegetarian categories alongside displaying the calories in the dish. This also ensures the screen reading technology not being fooled and only focuses on necessary information making the process of ordering food at a restaurant simplified for the specially-abled traveller.
 The web-app also allows micropayment to bypass the hassle of making visits to the ATMs and sharing sensitive banking information to strangers for help by allowing direct payment from native currency via payment gateways.
+
 ## ⚙️ How we built it
 
 - Figma: For design
-- Coil: For web monetization
 - DeSo: For user authentication
 - React.js: For frontend
 - Python: For backend
@@ -56,10 +61,6 @@ We are using **DeSo** to make a secure user authentication. DeSo is the first La
 
 - Any domain with .tech to be registered on domain.com to be able to use the domain.
 
-## 💲 Best Web Monetization Project
-
-We also use Coil to create micropayments for paying the restaurants. The coil is a free, open-source, and open-source-compliant web monetization platform that allows you to monetize your website for a small fee.
-
 ## 🧠 Challenges we ran into
 
 - Due to the difference in the time zone it was a bit difficult to collaborate with other developers in the team but we managed to get the project done in time.
@@ -69,7 +70,7 @@ We also use Coil to create micropayments for paying the restaurants. The coil is
 
 - Collaboration with other developers.
 
-## 🚀 What's next for APP NAME
+## 🚀 What's next for Don't Dis My Ability
 
 - Building a mobile app for the project.
-- Simplifying the process of accomodation by providing proper description of rooms,advance  eliminating the graphic capture and over crowding of webpages,following international standards on color-contrasts etc.
+- Simplifying the process of accomodation by providing proper description of rooms,advance eliminating the graphic capture and over crowding of webpages,following international standards on color-contrasts etc.
