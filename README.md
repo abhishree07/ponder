@@ -60,7 +60,7 @@ We are using **DeSo** to make a secure user authentication. DeSo is the first La
 
 ## 🌐 Best Domain Name from Domain.com
 
-- Any domain with .tech to be registered on domain.com to be able to use the domain.
+- dontdismyability.tech
 
 ## 🧠 Challenges we ran into
 
