@@ -29,7 +29,7 @@ export default function Navbar() {
 
     return (
         <div >
-            <nav className="flex items-center py-2 flex-wrap px-4 text-fontColor tracking-wider">
+            <nav className="flex items-center py-2 flex-wrap px-4 text-fontColor tracking-wide">
                 <Link to="/"><span className="p-2 mr-4 inline-flex items-center text-4xl cursor-pointer font-base text-white">{t('logo')}
                 </span></Link>
                 <button className="lg:hidden right-0 absolute md:px-8 px-6 mr-1 mb-1 ease-linear transition-all duration-150" type="button" onClick={() => setShowNavbar(true)} aria-hidden="false" aria-label="button">
@@ -146,7 +146,7 @@ export default function Navbar() {
                         </Menu>
 
                         <button className='bg-[#6F5DE0] text-white py-2 px-8 rounded-md' onClick={() => handleAuth(4, false)}>
-                        {t('navLinkLogout')}
+                            {t('navLinkLogout')}
                         </button>
 
                     </div>

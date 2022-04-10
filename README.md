@@ -31,7 +31,7 @@ Our team embarked on a journey to create an adaptive user interface for speciall
 
 - Upload the menu and extract the information from it
 - Convert the extracted text from the menu into speech
-- Allow micropayments to be made using Coil
+- Allow micropayments to be made using Razorpay
 - Classify the food as vegetarian or non-vegetarian
 - Get nutrition information about the food, such as its ingredients and its calories
 - Change the language of the website to the user's preferred language

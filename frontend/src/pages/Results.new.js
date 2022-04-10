@@ -2,21 +2,10 @@ import React, { useState, useEffect, Fragment } from 'react';
 import axios from 'axios';
 // import Speech from 'react-speech';
 import { FcSpeaker } from "react-icons/fc";
-import "../i18n"
-import i18n from '../i18n'
-import { useTranslation } from 'react-i18next'
 import { Menu, Transition } from '@headlessui/react'
 import { useSpeechSynthesis } from "react-speech-kit";
 
-const changeLang = (ln) => {
-  return () => {
-    i18n.changeLanguage(ln);
-  };
-};
-
 const Results = (props) => {
-
-  const { t } = useTranslation();
 
   const { code } = props;
 
@@ -65,7 +54,7 @@ const Results = (props) => {
     }
 
     const options = {
-      key: "your_api_comes_here",
+      key: "Enter_you_API_here",
       currency: "INR",
       amount: amount * 100,
       name: "Don't Dis My Ability",
@@ -139,8 +128,17 @@ const Results = (props) => {
             className="w-full border-none active:border-none resize-none h-full"
           ></textarea>
 
+          {/* {code} */}
+
           <div className='flex flex-row '>
             <button onClick={() => speak({ text: value })}><FcSpeaker className="h-8" /></button>
+            {/* <button>
+              <FcSpeaker className="h-8" />
+              <Speech text={code} stop={true}
+                pause={true}
+                resume={true}
+                className="cursor-pointer z-10 w-8 h-1" />
+            </button> */}
           </div>
 
         </div>
@@ -149,7 +147,7 @@ const Results = (props) => {
           <Menu as="div" className="relative inline-block text-left" onChange={languageKey}>
             <div>
               <Menu.Button className="my-1 inline-flex justify-center w-60 py-2 px-4 text-xl font-medium leading-5 text-gray-700 transition duration-150 ease-in-out bg-white border border-gray-300 rounded-md font-sourceSerifPro hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-50 active:text-gray-800">
-                {t('navChangeLang')}
+                Change Language
                 <svg
                   className="w-5 h-5"
                   viewBox="0 0 20 20"
@@ -174,26 +172,7 @@ const Results = (props) => {
               leaveTo="transform opacity-0 scale-95"
             >
               <Menu.Items static className="origin-top-right absolute right-0 w-60 rounded-md shadow-lg bg-white ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none">
-
-                <Menu.Item>
-                  <div className="w-full px-12 py-3 text-sm cursor-pointer" onClick={changeLang("en")} >
-                    English
-                  </div>
-                </Menu.Item>
-
-                <Menu.Item>
-                  <div className="w-full px-12 py-3 text-sm cursor-pointer" onClick={changeLang("de")} >
-                    deutsch
-                  </div>
-                </Menu.Item>
-
-                <Menu.Item>
-                  <div className="w-full px-12 py-3 text-sm pl-14 cursor-pointer" onClick={changeLang("ja")} >
-                    日本
-                  </div>
-                </Menu.Item>
-
-                {/* {languagesList.map((language) => {
+                {languagesList.map((language) => {
                   return (
                     <Menu.Item>
                       <div className="w-full py-3 text-sm cursor-pointer text-center" value={language.code}>
@@ -201,7 +180,7 @@ const Results = (props) => {
                       </div>
                     </Menu.Item>
                   )
-                })} */}
+                })}
 
               </Menu.Items>
             </Transition>
@@ -215,15 +194,17 @@ const Results = (props) => {
             <div className="bg-green-500 h-4 w-4 rounded-full"></div>
           </div>
 
-          <div className="w-full border-none active:border-none resize-none h-full">
-            {t('resultOCR')}
-          </div>
+          <textarea
+            rows="10"
+            value={resultText}
+            className="w-full border-none active:border-none resize-none h-full"
+          ></textarea>
 
         </div>
 
-        {/* <div className='grid place-items-center py-8'>
+        <div className='grid place-items-center py-8'>
           <button className='bg-secondary py-2 px-8 rounded-md text-xl md:text-2xl text-white w-60' onClick={translateText}>Translate</button>
-        </div> */}
+        </div>
 
         <div className='py-8 ml-12'>
           <button className='bg-secondary py-2 px-8 rounded-md text-xl md:text-2xl text-white' onClick={() => displayRazorpay(5)}>Pay amount</button>
